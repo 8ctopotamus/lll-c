@@ -2,4 +2,10 @@
 
 ## Compile with gcc
 
-`gcc source.c -o out`
+Let's compile them to the `./bin` folder for now. 
+
+`gcc <source_file>.c -o ./bin/<out_file>`
+
+## Run
+
+`./bin/<out_file>`
