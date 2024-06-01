@@ -15,7 +15,8 @@ __attribute__((__packed__)) struct employee_t {
 
 int main() {
 	struct employee_t Fred;
-	
+
+	printf("Size of employee: %lu\n", sizeof(struct employee_t));
 	printf("Size of employee: %lu\n", sizeof(Fred));
 
 	return 0;
