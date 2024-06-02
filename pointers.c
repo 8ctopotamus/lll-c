@@ -11,6 +11,7 @@ void initialize_employee(struct employee_t *e) {
   e->id = 0;
   e->income = 0;
   e->staff = false;
+  return;
 }
 
 int main() {
