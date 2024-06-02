@@ -27,3 +27,13 @@ Let's compile them to the `./bin` folder for now.
 4) Use Valgrind
 
 `valgrind --leak-check=full ./<out_file> -s`
+
+## Linker Diagnostics
+
+Get file info:
+
+`file <out_file>`
+
+Linker Diagnostics:
+
+`ldd <out_file>`
