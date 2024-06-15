@@ -1,4 +1,5 @@
-# Low Level Academy - Learn C
+hello there file!
+y - Learn C
 
 ## Compile with gcc
 
